@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e1e2e2dd
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loginBox{
+    position: relative;
+    width: 950px;
+    height: 750px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0 0 10px 5px rgba(0, 0, 0, .3);
+    display: flex;
+}
+
+.signUpForm , .LoginForm{
+    position: absolute;
+    background-color: #fff;
+    transition: all .2s;
+    width: 50%;
+    height: 100%;
+    padding: 40px 60px;
+    border-radius: 15px 0 0 15px;
+}
+
+.LoginForm{
+    right: 0;
+}
+
+
+.slider-con{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+    background-color: #5038EB;
+    padding: 15px;
+}
+
+.form-con{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header svg{
+    color: #5038EB;
+    height: 40px;
+}
+
+.header div p{
+    font-size: 15px;
+    color: rgba(83, 83, 81, 0.867);
+}
+
+.google{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.google button{
+    width: 100%;
+    height: 65%;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #ccccc8dd;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google button img{
+    height: 80%;
+    margin-right: 10px;
+}
+
+.google button p{
+    font-weight: 800;
+}
+
+.email-signup{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.email-signup span{
+    width: 27%;
+    height: 1px;
+    background-color: #ccccc8dd;
+}
+
+.email-signup p{
+    color:  #686867dd;;
+    font-size: 13px;
+}
+
+form{
+    width: 100%;
+    height: 370px;
+    margin-top: 10px;
+}
+
+form .input-con{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form .input-con .input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+
+.input :nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.input :nth-child(1) .Vtext{
+    color: red;
+    font-size: 11px;
+    font-weight: 900;
+    opacity: 0;
+    transition: all .4s;
+}
+
+form .input-con .input label span{
+    color: #5038EB;
+}
+
+form .input-con .input input{
+    transition: all .2s;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccccc8dd;
+    border-radius: 30px;
+    outline: none;
+    padding: 10px;
+}
+
+form .input-con .terms{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form .input-con .terms div input{
+    cursor: pointer;
+    width: 16px;
+    accent-color: #5038EB;
+    cursor: pointer;
+}
+
+form .input-con .terms div label{
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+form .input-con .terms div label span{
+    color: #5038EB;
+    font-weight: 800;
+}
+
+.submit{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.submit button{
+    transition: all .2s;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: #5038EB;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.submit button:hover{
+    background-color: #3b28b7;
+}
+
+.login-text{
+    width: 100%;
+    height: 30px;
+    margin-top: 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.login-text :nth-child(2){
+    cursor: pointer;
+    margin-left: 9px;
+    font-weight: 800;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #5038EB;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider div{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.slider div .content{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+}
+
+.slider div .content .f{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slider div .content .f .chart{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2);
+    padding: 10px;
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.slider div .content .f .rewards{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2);
+    /* border: 1px solid #b7b2b2; */
+    padding: 10px;
+    height: 60%;
+    border-radius: 8px;
+    width: 60%;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+.slider div .content .f .chart .header-chart{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+}
+
+
+.slider div .content .f .chart .header-chart .amount{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+.slider div .content .f .chart .header-chart .amount h1 span{
+    color: #808080;
+}
+
+.slider div .content .f .chart .header-chart :nth-child(2){
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #808080;
+}
+
+.slider div .content .f .chart .img-chart{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider div .content .f .chart .img-chart img{
+    height: 100%;
+}
+
+.slider div .content .f .chart .month{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider div .content .f .rewards .header-rewards{
+    width: 100%;
+    height: 40px;
+}
+
+.slider div .content .f .rewards .circle-rewards{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.slider div .content .f .rewards .circle-rewards .circle{
+    width: 170px;
+    height: 170px;
+    background-color: #efecec94;
+    border-radius: 50%;
+    padding: 30px;
+    border-bottom: 3px solid #3b28b7;
+}
+
+.slider div .content .f .rewards .circle-rewards .circle img{
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.slider div .content div .logo{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.slider div .content div .logo img{
+    height: 70%;
+}
+
+#insta , #linkedin{
+    top: 20px;
+    left: 60px;
+}
+
+#twitter, #messanger{
+    top: 160px;
+    left: 0;
+}
+
+#twitter img, #messanger img{
+    height: 50%;
+}
+
+
+.slider :nth-child(1) .textContent{
+    width: 100%;
+    padding: 60px;
+    height: 20%;
+    bottom: 0;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider :nth-child(1) .textContent p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #afacac;
+}
+
+.swiper-pagination{
+    margin-bottom: 10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    border-radius: 15px;
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active-main{
+    width: 20px;
+}
+
+
+.Eyecon{
+    justify-content: stretch;
+    position: relative;
+}
+.Eyecon .eyeBtn{
+    width: 20px;
+    position: absolute;
+    right: 14px;
+    top: 48px;
+    color: #808080;
+    cursor: pointer;
+}
+
+.Eyecon input{
+    margin-top: 10px;
+}

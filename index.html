@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="loginBox animate__animated animate__fadeInDown">
+            <div class="signUpForm">
+                <div class="form-con">
+                    <div class="header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd" />
+                        </svg>
+                        <div>
+                            <h1>Sign Up</h1>
+                            <p>See your growth and get consulting support!</p>
+                        </div>
+                    </div>
+                    <div class="google">
+                        <button>
+                            <img src="./images/google.png" alt="">
+                            <p>Sign Up with google</p>
+                        </button>
+                    </div>
+                    <div class="email-signup">
+                        <span></span>
+                        <p>or Sign up with Email</p>
+                        <span></span>
+                    </div>
+                    <form action="" class="Formsign frm" novalidate>
+                        <div class="input-con">
+                            <div class="input">
+                                <div class="">
+                                    <label for="">Name<span>*</span></label>
+                                    <p class="Vtext Vtext-name">Input cant be empty!</p>
+                                </div>
+                                <input placeholder="Name" type="text" name="" class="txtName inpSignUp" id="">
+                            </div>
+                            <div class="input">
+                                <div class="">
+                                    <label for="">Email<span>*</span></label>
+                                    <p class="Vtext Vtext-email">Input cant be empty!</p>
+                                </div>
+                                <input placeholder="mail@website.com" type="email" name="" class="inpSignUp txtEmail" id="" >
+                            </div>
+                            <div class="input Eyecon">
+                                <div class="">
+                                    <label for="">Password<span>*</span></label>
+                                    <p class="Vtext Vtext-pass">Input cant be empty!</p>
+                                </div>
+                                <input placeholder="Min. 8 character" type="password" name="" class="inpSignUp txtPassword" id="">
+                                <div class="eyeBtn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>                                          
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="signSubmit">Sign up</button>
+                        </div>
+                    </form>
+                    <div class="login-text">
+                        <p>Already have an account?</p>
+                        <button class="btnLogin">Login</button>
+                    </div>
+                </div>
+            </div>
+            <div class="LoginForm">
+                <div class="form-con">
+                    <div class="header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd" />
+                        </svg>
+                        <div>
+                            <h1>Login</h1>
+                            <p>See your growth and get consulting support!</p>
+                        </div>
+                    </div>
+                    <div class="google">
+                        <button>
+                            <img src="./images/google.png" alt="">
+                            <p>Sign in with google</p>
+                        </button>
+                    </div>
+                    <div class="email-signup">
+                        <span></span>
+                        <p>or Sign in with Email</p>
+                        <span></span>
+                    </div>
+                    <form action="" class="frmLogin" novalidate>
+                        <div class="input-con">
+                            <div class="input">
+                                <div class="">
+                                    <label for="">Email<span>*</span></label>
+                                    <p class="Vtext Vtext-pass">Input cant be empty!</p>
+                                </div>
+                                <input placeholder="mail@website.com" type="email" name="" class="inpLogin txtEmail" id="">
+                            </div>
+                            <div class="input Eyecon">
+                                <div class="">
+                                    <label for="">Password<span>*</span></label>
+                                    <p class="Vtext Vtext-pass">Input cant be empty!</p>
+                                </div>
+                                <input placeholder="Min. 8 character" type="password" name="" class="inpLogin txtPassword" id="">
+                                <div class="eyeBtn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>                                          
+                                </div>
+                            </div>
+                            <div class="terms">
+                                <div class="">
+                                    <input type="checkbox" name="" id="remember">
+                                    <label for="remember">Remember me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="animate__animated animate__shakeX">Login</button>
+                        </div>
+                    </form>
+                    <div class="login-text">
+                        <p>Not registred yet?</p>
+                        <button class="btnSignup">Sign up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-con swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="slider swiper-slide">
+                        <div class="">
+                            <div class="content">
+                                <div class="f">
+                                    <div id="insta" class="logo">
+                                        <img id="insta" src="./images/instagram.png" alt="">
+                                    </div>
+                                    <div id="twitter" class="logo">
+                                        <img id="" src="./images/Twitter-logo-png.png" alt="">
+                                    </div>
+                                    <div class="chart">
+                                        <div class="header-chart">
+                                            <div class="amount">
+                                                <h1><span>$</span> 162,751</h1>
+                                            </div>
+                                            <div class="">
+                                                <p>Last year</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-chart">
+                                            <img src="./images/istockphoto-1167238046-612x612.jpg" alt="">
+                                        </div>
+                                        <div class="month">
+                                            <p>APR</p>
+                                            <p>MAY</p>
+                                            <p>JUN</p>
+                                            <p>JUL</p>
+                                            <p>AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="rewards">
+                                        <div class="header-rewards">
+                                            <h2>Rewards</h2>
+                                        </div>
+                                        <div class="circle-rewards">
+                                            <div class="circle">
+                                                <img src="./images/5.jpeg" alt="">
+                                            </div>
+                                            <p>Points</p>
+                                            <h2>172,832</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="textContent">
+                                <h1>Turn your ideas into reality.</h1>
+                                <p>Consistent quality and experience across all platforms and devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <div class="">
+                            <div class="content">
+                                <div class="f">
+                                    <div id="messanger" class="logo">
+                                        <img id="" src="./images/Facebook_Messenger_logo_2020.svg.webp" alt="">
+                                    </div>
+                                    <div id="linkedin" class="logo">
+                                        <img id="" src="./images/linkedin-logo-transparent-116602552215dpnc1i8cu.png" alt="">
+                                    </div>
+                                    <div class="chart">
+                                        <div class="header-chart">
+                                            <div class="amount">
+                                                <h1><span>$</span> 260,530</h1>
+                                            </div>
+                                            <div class="">
+                                                <p>This year</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-chart">
+                                            <img src="./images/istockphoto-1167238046-612x612.jpg" alt="">
+                                        </div>
+                                        <div class="month">
+                                            <p>APR</p>
+                                            <p>MAY</p>
+                                            <p>JUN</p>
+                                            <p>JUL</p>
+                                            <p>AUG</p>
+                                        </div>
+                                    </div>
+                                    <div class="rewards">
+                                        <div class="header-rewards">
+                                            <h2>Rewards</h2>
+                                        </div>
+                                        <div class="circle-rewards">
+                                            <div class="circle">
+                                                <img src="./images/5.jpeg" alt="">
+                                            </div>
+                                            <p>Points</p>
+                                            <h2>500,419</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="textContent">
+                                <h1>Turn your ideas into reality.</h1>
+                                <p>Consistent quality and experience across all platforms and devices.</p>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+
+       <!-- Swiper JS -->
+       <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+       <!-- Initialize Swiper -->
+       <script>
+         var swiper = new Swiper(".mySwiper", {
+           pagination: {
+             el: ".swiper-pagination",
+             dynamicBullets: true,
+           },
+         });
+       </script>
+</body>
+</html>
